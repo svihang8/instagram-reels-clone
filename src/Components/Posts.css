@@ -1,0 +1,79 @@
+.reel-container {
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+}
+
+.reel {
+    position: relative;
+}
+
+.fa {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.fa h4 {
+    color: white;
+}
+
+.icon-styling {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    cursor: pointer;
+}
+
+.like {
+    cursor: pointer;
+    color: pink;
+}
+
+.unlike {
+    cursor: pointer;
+    color: white;
+}
+
+.chat-box-icon {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left:4%;
+}
+
+.modal-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.video-modal{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-modal video{
+    width: 100%;
+    height: 85vh;
+}
+
+.comment-modal{
+    width: 50%;
+    height: 100%;
+}
+
+.unlike2{
+    color: black;
+    cursor: pointer;
+}
+
+.card1{
+    height: 70vh;
+}
